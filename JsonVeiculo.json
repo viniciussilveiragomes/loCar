@@ -1,0 +1,44 @@
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "marca": "Chevrolet",
+            "modelo": "Onix",
+            "placa": "ASP-9917"
+        },
+        {
+            "id": 8,
+            "marca": "Hyundai",
+            "modelo": "Hb20",
+            "placa": "HFD-7485"
+        },
+        {
+            "id": 9,
+            "marca": "Ford",
+            "modelo": "Ká",
+            "placa": "YTZ-4472"
+        },
+        {
+            "id": 10,
+            "marca": "Fiat",
+            "modelo": "Argo",
+            "placa": "CDW-5814"
+        },
+        {
+            "id": 11,
+            "marca": "Renault",
+            "modelo": "Sandero",
+            "placa": "TQA-4778"
+        },
+        {
+            "id": 12,
+            "marca": "Volkswagem",
+            "modelo": "Saveiro",
+            "placa": "BSC-7438"
+        }
+    ]
+}

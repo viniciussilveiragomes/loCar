@@ -1,0 +1,24 @@
+<h2>Colaborador</h2>
+
+<div>
+    <label>Nome:
+        <input placeholder="Insira o nome" [(ngModel)]="request.name">
+    </label>
+    <br><br>
+
+    <label>Setor:
+        <input placeholder="Insira o setor" [(ngModel)]="request.job">
+    </label>
+    <br><br>
+    <button (click)="save()">Gravar</button>
+</div>
+
+<br><br>
+
+<div *ngIf="response">
+    <h3>Criado com sucesso!</h3><br>
+    <label>Nome: {{response.name}}</label><br>
+    <label>Profissão: {{response.job}}</label><br>  
+    <!--label>Id: {{response.id}}</label><br-->
+    <label>Criado em: {{response.createdAt}}</label>
+</div>
